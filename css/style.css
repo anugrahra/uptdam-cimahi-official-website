@@ -131,3 +131,43 @@ footer ul {
 .click-to-chat img {
   width: 100%;
 }
+
+table.kontak-kami td {
+  padding: 10px;
+}
+
+table.kontak-kami td.icons {
+  text-align: center;
+}
+
+table.kontak-kami a {
+  color: black;
+}
+
+table.kontak-kami a:hover {
+  text-decoration: underline;
+}
+
+.css-17zbpx1 {
+  width: 1em;
+  height: 1em;
+  color: currentColor;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 2px;
+  margin-right: 2px;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+#faq-tarif,
+#faq-pembayaran,
+#faq-pemakaian,
+#faq-penanganan,
+#faq-pemasangan-baru,
+#faq-kualitas-air {
+  padding: 10px;
+}
