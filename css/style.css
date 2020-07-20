@@ -118,6 +118,10 @@ footer ul {
   list-style: none;
 }
 
+.footer-bantuan a:hover {
+  text-decoration: underline;
+}
+
 .click-to-chat {
   position: fixed;
   bottom: 5px;
