@@ -23,7 +23,8 @@ body {
   color: #1118D5 !important;
 }
 
-.nav-item.active {
+.nav-item.active,
+.dropdown-toggle.active {
   color: #1118D5 !important;
   font-weight: 600;
 }
@@ -170,4 +171,19 @@ table.kontak-kami a:hover {
 #faq-pemasangan-baru,
 #faq-kualitas-air {
   padding: 10px;
+}
+
+.banner-profil {
+  overflow: hidden;
+  height: 300px;
+  position: relative;
+}
+
+.banner-profil img {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 100%;
 }
