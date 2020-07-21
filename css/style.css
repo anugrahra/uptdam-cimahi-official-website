@@ -187,3 +187,11 @@ table.kontak-kami a:hover {
   transform: translateY(-50%);
   width: 100%;
 }
+
+table.artikel a {
+  color: #000000;
+}
+
+table.artikel a:hover {
+  text-decoration: underline;
+}
