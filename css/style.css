@@ -195,3 +195,19 @@ table.artikel a {
 table.artikel a:hover {
   text-decoration: underline;
 }
+
+div.cover-artikel {
+  width: 100%;
+  overflow: hidden;
+  height: 300px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  position: relative;
+}
+
+div.cover-artikel img {
+  width: 100%;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
